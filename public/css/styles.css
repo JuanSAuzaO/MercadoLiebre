@@ -20,6 +20,8 @@ header {
 
 main {
   text-align: center;
+  width: 90%;
+  margin: 0px auto;
 }
 
 section {
@@ -55,6 +57,7 @@ h3 {
 
 h4 {
     font-size:16px;
+    margin-top: 5px;
 }
 
 .pic {
@@ -70,7 +73,7 @@ main .pic {
 }
 
 .quotes {
-    width: 33%;
+    width: 66%;
     font-size: 100%;
     text-align: center;
     margin-bottom: 10px;
@@ -83,10 +86,7 @@ main .pic {
     color:white;
     margin-left: 44.5vw;
     margin-right: 44.5vw;
-    padding-left: 0.01%;
-    padding-right: 0.01%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding: 2px 2px;
     border-radius: 5px;
 }
 
@@ -119,18 +119,19 @@ main .pic {
 
 
 .precios {
-    width: 30%;
+    width: 60%;
     font-size:18px;
 }
 
 .descuentos {
-    width:70%;
+    width:40%;
     font-size:16px;
 }
 
 .fa-credit-card {
     color: #1259c3;
     font-size: 2em;
+    margin-bottom: 10px;
 }
 
 .fa-credit-card:hover {
@@ -140,6 +141,7 @@ main .pic {
 .fa-gift {
     color: #1259c3;
     font-size: 2em;
+    margin-bottom: 10px;
 }
 
 .fa-gift:hover {
@@ -149,6 +151,7 @@ main .pic {
 .fa-user-shield {
     color: #1259c3;
     font-size: 2em;
+    margin-bottom: 10px;
 }
 
 .fa-user-shield:hover {
@@ -195,6 +198,11 @@ main .pic {
     header .pic {
         width: 33%;
     }
+
+    .quotes {
+        width: 33%;
+    }
+
     article {
         width: 45%;
     }

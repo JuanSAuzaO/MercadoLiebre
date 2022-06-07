@@ -46,11 +46,21 @@ article {
 form {
     border: 1px solid black;
     border-radius: 10px;
-    width: 90%;
+    width: 324px;
     background-color: #ebebeb;
 }
 
-.env:hover {
+.env, .env a {
+    color: #0022AA;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 1px;
+    background-color: white;
+    font-weight: bold;
+}
+
+.env:hover, .env:hover a {
+    color: white;
     background-color: #0022AA;
 }
 
@@ -214,6 +224,7 @@ main .pic {
 }
 
 .copyright {
+    flex-basis: 100%;
     color:#666;
     text-align: left;
 }
@@ -266,5 +277,14 @@ main .pic {
     }
     article {
         width: 20%;
+    }
+    footer {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    footer section {
+        width: 33%;
+        margin: 24px 0px;
     }
 }
