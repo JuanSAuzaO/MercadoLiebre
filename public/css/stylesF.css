@@ -198,14 +198,26 @@ main .pic {
     font-size: 2em;
 }
 
+.fa-credit-card:hover {
+    color: gold;
+}
+
 .fa-gift {
     color: #1259c3;
     font-size: 2em;
 }
 
+.fa-gift:hover {
+    color: gold;
+}
+
 .fa-user-shield {
     color: #1259c3;
     font-size: 2em;
+}
+
+.fa-user-shield:hover {
+    color: gold;
 }
 
 .fa-truck {
